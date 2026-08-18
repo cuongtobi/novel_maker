@@ -11,79 +11,165 @@ Mỗi truyện chạy trên **một branch riêng**. `main` chỉ giữ pipeline
 Mục tiêu mặc định:
 - truyện dài 200–300 chương;
 - tiếng Việt tự nhiên, phù hợp audio YouTube;
-- giữ mạnh Narrative DNA, story engine, nhịp tiến triển, cách gieo–thu, kiểu payoff và cấu trúc chức năng của hồ sơ mẫu;
-- thay toàn bộ lớp định danh và biểu hiện cụ thể để truyện mới có canon riêng;
+- giữ đúng thể loại/subgenre, thế giới quan, nhịp tiến triển, story engine và xương sống cốt truyện của hồ sơ mẫu;
+- dùng chế độ **Conservative Clone**: ưu tiên fidelity với source profile, chỉ thay đổi những gì cần để tạo namespace mới và tránh sao chép câu chữ;
+- không sáng tạo thêm arc, lore, nhân vật, cơ chế sức mạnh hoặc biến cố lớn nếu hồ sơ mẫu không cần chúng;
 - có thể viết **batch 10 chương trong một lệnh**, nhưng phải xử lý tuần tự để continuity không vỡ.
 
 ---
 
 ## 2. Nguyên tắc clone
 
-### 2.1. Những gì được giữ gần hồ sơ mẫu
+### 2.1. Fidelity hierarchy
 
-Ưu tiên bảo toàn **chức năng**, không sao chép câu chữ:
-- Narrative DNA và central fantasy ở cấp chức năng;
+Khi có xung đột giữa “tạo mới” và “bám hồ sơ mẫu”, ưu tiên theo thứ tự:
+
+1. đúng thể loại và subgenre của hồ sơ mẫu;
+2. đúng central fantasy và story engine;
+3. đúng xương sống cốt truyện, thứ tự biến cố lớn và hướng phát triển nhân vật;
+4. đúng hệ sức mạnh/cảnh giới và lịch sử nền;
+5. đúng chức năng quan hệ, reveal, progression và payoff;
+6. mới đến lớp tên gọi, wording, hình ảnh và chi tiết bề mặt.
+
+Không được hy sinh fidelity chỉ để làm truyện “khác hơn”.
+
+### 2.2. Những gì mặc định phải giữ gần hồ sơ mẫu
+
+Ưu tiên bảo toàn:
+- genre/subgenre và cultural/aesthetic frame;
+- Narrative DNA và central fantasy;
 - story engine;
 - tỷ lệ pha trộn điều tra / hành động / tu luyện / hài / tình cảm / chính trị;
-- nhịp mở câu hỏi → điều tra → trả giá → payoff → mở tầng mới;
-- cấu trúc tăng stakes;
-- cadence reveal, hook và cliffhanger;
-- vai trò chức năng của arc;
-- nhịp progression;
-- cơ chế giữ chân;
-- style profile ở cấp nhịp câu, mật độ thoại, khoảng cách POV, cách đưa lore, cách mở/đóng cảnh;
-- theme ở cấp câu hỏi đạo đức và hệ thưởng–phạt.
-
-### 2.2. Những gì bắt buộc remap
-
-Mọi truyện mới phải có namespace riêng. Bắt buộc thay hoặc thiết kế lại:
-- tên nhân vật, biệt hiệu, danh xưng;
-- quốc gia, châu, thành, huyện, núi, sông, bí cảnh, không gian siêu nhiên;
-- tông môn, gia tộc, cơ quan, tổ chức, phe phái;
-- pháp bảo, vũ khí, đan dược, tài nguyên;
-- công pháp, kỹ năng, cảnh giới và thuật ngữ;
-- nghi lễ, biểu tượng, mỹ học siêu nhiên;
-- tên sự kiện lịch sử;
-- câu thoại, câu ví von, biệt ngữ và running joke.
-
-Không dùng thao tác “search & replace tên” đơn thuần.
-
-### 2.3. Giữ cốt truyện nhưng không thành bản đổi tên
-
-Mặc định giữ **macro plot function** gần mẫu, nhưng thay **concrete causality**.
-
-Có thể giữ:
+- premise và phạm vi xung đột;
 - thứ tự chức năng lớn của các arc;
-- vị trí tương đối của reveal, setback, midpoint, climax;
-- kiểu tăng phạm vi xung đột;
-- vai trò cảm xúc của một beat;
-- thời điểm tương đối của power-up hoặc payoff.
+- các biến cố lớn, midpoint, climax, reveal và payoff quan trọng;
+- causal chain chính giữa các biến cố nếu không có lý do canon bắt buộc phải sửa;
+- protagonist function, core motivation, major personality axis và development direction;
+- relationship archetype và vai trò của các quan hệ chính;
+- progression rhythm;
+- **cảnh giới / realm ladder / cấp bậc sức mạnh**;
+- breakthrough logic và progression landmarks;
+- **historical backbone, historical events và chronology**;
+- hook/cliffhanger cadence;
+- emotional rhythm;
+- style profile ở cấp kỹ thuật: POV, narrative distance, nhịp câu, mật độ thoại, exposition, cách mở/đóng cảnh.
 
-Phải chuyển hóa:
-- nguyên nhân trực tiếp của vụ việc;
-- hình thức nạn nhân và vật chứng;
-- phương pháp điều tra/giải quyết;
-- quan hệ nhân vật tạo ra lựa chọn;
-- cơ chế sức mạnh dùng trong cao trào;
-- hình thức payoff;
-- chuỗi nhân quả nối arc.
+### 2.3. Identity Remap — chỉ remap lớp định danh cần thiết
 
-Mục tiêu là **fidelity cao ở cấu trúc chức năng, khoảng cách cao ở biểu hiện cụ thể**.
+Identity Remap không còn có nghĩa là thay toàn bộ world/power/history.
 
-### 2.4. Cách hành văn
+#### Bắt buộc remap theo mặc định
+- tên nhân vật, biệt hiệu và danh xưng riêng;
+- tên địa danh mang tính proper noun;
+- tên tông môn/gia tộc/tổ chức/phe phái mang tính proper noun;
+- tên pháp bảo, vũ khí, vật phẩm và tài nguyên mang tính proper noun khi cần tạo namespace riêng;
+- catchphrase, running joke, câu thoại và câu văn cụ thể;
+- wording mô tả mang tính đặc trưng của source.
+
+#### Mặc định KHÔNG remap
+- **cảnh giới, thứ tự cảnh giới và logic tiến cấp**;
+- **sự kiện lớn của cốt truyện**;
+- **lịch sử nền và trục thời gian lịch sử**;
+- thứ tự arc;
+- midpoint/climax/payoff function;
+- core mystery ladder;
+- progression landmarks;
+- causal chain chính nếu việc giữ lại không tạo mâu thuẫn với namespace mới.
+
+Chỉ thay các phần trên khi user yêu cầu rõ hoặc khi một tên proper noun bên trong bắt buộc phải đồng bộ với identity mới. Nếu phải sửa, dùng **minimal adaptation**: thay ít nhất có thể và không làm đổi vai trò, kết quả, thứ tự hay ý nghĩa của biến cố.
+
+### 2.4. Genre Fit Gate cho mọi tên mới
+
+Mọi tên được remap phải thuộc đúng ngôn ngữ thẩm mỹ của hồ sơ mẫu.
+
+Trước khi khóa tên mới phải kiểm tra:
+- thời đại;
+- văn hóa;
+- địa lý;
+- hệ thống xã hội;
+- tông tu luyện / huyền huyễn / đô thị / mạt thế / lịch sử / khoa huyễn... của source;
+- naming morphology và register mà source đang dùng.
+
+Không được:
+- đưa tên hiện đại/công nghệ vào tiên hiệp cổ phong nếu source không có lớp đó;
+- đưa mỹ học Tây phương vào truyện Đông phương nếu hồ sơ không hỗ trợ;
+- dùng tên quá hài, quá đời thường hoặc quá khoa trương trái tone;
+- tạo thuật ngữ thuộc một subgenre khác chỉ vì nghe “mới”.
+
+Nguyên tắc: **tên mới phải nghe như vốn thuộc thế giới của truyện mẫu**.
+
+### 2.5. Character Fidelity
+
+Không tự tái thiết nhân vật chỉ để khác source.
+
+Mặc định giữ:
+- role và narrative function;
+- archetype;
+- core external goal;
+- internal need chính;
+- trục tính cách nổi bật;
+- giới hạn năng lực;
+- relationship function;
+- development direction;
+- major secret/reveal nếu nó là bộ phận của plot backbone.
+
+Có thể đổi:
+- tên;
+- biệt hiệu;
+- chi tiết bề mặt;
+- nghề/chức danh chỉ khi cần tương thích namespace mới và phải là **semantic equivalent** trong cùng thể loại;
+- một số chi tiết phụ không ảnh hưởng causal chain.
+
+Không được tự thêm trauma, nghề, quá khứ, bí mật, huyết mạch, hệ thống, thân phận, mục tiêu hoặc mối quan hệ lớn mà source profile không có căn cứ.
+
+### 2.6. Plot Fidelity — không sáng tạo quá mức
+
+Mặc định **giữ cốt truyện gần hồ sơ mẫu**.
+
+Được giữ:
+- arc order;
+- event order;
+- nguyên nhân chính;
+- đối tượng xung đột;
+- loại thử thách;
+- phương pháp giải quyết ở cấp logic;
+- reveal order;
+- progression timing;
+- relationship pressure;
+- midpoint/climax/payoff;
+- hook sang arc tiếp theo.
+
+Chỉ được adapt khi:
+- tên cũ xung đột với namespace mới;
+- chi tiết cụ thể không còn hợp lý sau remap;
+- continuity bắt buộc phải sửa;
+- user yêu cầu thay đổi.
+
+Mọi adaptation phải dùng nguyên tắc **minimum necessary change**.
+
+Không tự tạo:
+- arc mới;
+- phản diện lớn mới;
+- mystery layer mới;
+- hệ sức mạnh mới;
+- lịch sử bí mật mới;
+- twist mới làm đổi hướng truyện;
+- character arc mới làm thay chức năng nhân vật.
+
+### 2.7. Cách hành văn
 
 Học từ hồ sơ mẫu ở cấp kỹ thuật:
 - POV và narrative distance;
 - tốc độ câu/đoạn;
 - mật độ thoại;
 - tỷ lệ exposition;
-- cách đưa luật thế giới sau khi hiện tượng xuất hiện;
+- cách đưa luật thế giới;
 - kiểu mở cảnh và đóng cảnh;
 - cách viết action, investigation, cultivation, emotion, horror, comedy;
-- cách tạo tension bằng đồng hồ, tài nguyên, thông tin bất cân xứng;
+- cách tạo tension;
 - kiểu setup/payoff.
 
-Không sao chép nguyên câu, thành ngữ đặc trưng, câu đe dọa, biệt hiệu, running joke hoặc đoạn mô tả từ nguồn.
+Không sao chép nguyên câu, đoạn văn, catchphrase, running joke hoặc wording đặc trưng từ nguồn.
 
 ---
 
@@ -103,13 +189,6 @@ Tạo branch:
 
 ```text
 story/<slug>
-```
-
-Ví dụ:
-
-```text
-story/ma-dao-ky-an
-story/kiem-tien-trong-sinh
 ```
 
 Không ghi dữ liệu của hai truyện vào cùng branch.
@@ -146,9 +225,9 @@ chapters/
   ...
 ```
 
-`source/profile.md` là hồ sơ mẫu đã cung cấp, không phải canon của truyện mới.
+`source/profile.md` là hồ sơ mẫu tham chiếu.
 
-`memory/*.md` mới là canon/source of truth của truyện mới.
+`memory/*.md` là canon/source of truth của truyện mới, bao gồm cả những cấu trúc source được chủ động giữ nguyên theo Clone Map.
 
 ---
 
@@ -171,7 +250,7 @@ chapters/
 10. Cách hành văn / Style Profile
 11. Outline hoặc timeline kể chuyện theo arc
 12. Blueprint có thể tái sử dụng
-13. Risk / yếu tố không nên bê nguyên
+13. Risk / yếu tố không nên bê nguyên câu chữ
 
 Nếu hồ sơ thiếu section, ghi `MISSING`; không tự giả định nguồn có dữ liệu.
 
@@ -179,48 +258,69 @@ Nếu hồ sơ thiếu section, ghi `MISSING`; không tự giả định nguồn
 
 Tạo `memory/clone_map.md` trước mọi canon khác.
 
-Mỗi yếu tố nguồn phải được xếp vào một trong bốn loại:
-- `KEEP_FUNCTION`: giữ chức năng tự sự;
-- `ADAPT`: giữ phần lõi nhưng đổi cơ chế biểu hiện;
-- `REPLACE`: thay hoàn toàn;
-- `DROP`: không dùng.
+Mỗi yếu tố nguồn dùng một trạng thái:
+- `KEEP_FUNCTION`: giữ chức năng và có thể giữ cấu trúc;
+- `KEEP_CANON`: giữ nguyên cấu trúc/fact source như cảnh giới, sự kiện, lịch sử khi phù hợp;
+- `ADAPT_MINIMAL`: chỉ sửa phần tối thiểu để tương thích identity mới;
+- `REMAP_IDENTITY`: đổi proper noun/lớp định danh, giữ chức năng và plot role;
+- `DROP`: chỉ dùng khi source profile tự đánh dấu không nên kế thừa hoặc user yêu cầu.
 
-Clone Map tối thiểu phải có bảng cho:
-- protagonist;
-- companion / mentor / rival / antagonist;
-- địa danh;
-- phe phái;
-- hệ sức mạnh;
-- vật phẩm;
-- lịch sử;
-- relationship archetype;
-- theme;
-- arc function;
-- signature style technique.
+Clone Map tối thiểu phải bao phủ:
+- protagonist và core cast;
+- major locations;
+- factions;
+- power system;
+- realm ladder;
+- key artifacts/resources;
+- major plot events;
+- historical backbone;
+- relationship archetypes;
+- themes;
+- arc functions;
+- style techniques.
 
-Mỗi dòng ghi rõ `Source → Function → New equivalent → What changes → What stays`.
+Mỗi dòng ghi rõ:
+
+```text
+Source element
+→ Narrative function
+→ Fidelity class
+→ New/retained equivalent
+→ What stays
+→ Minimal changes allowed
+→ Genre-fit note
+```
 
 ### Bước C — Identity Remap
 
 Tạo namespace mới trước khi viết canon:
 - bảng tên nhân vật;
-- bảng địa danh;
-- bảng tổ chức;
-- bảng vũ khí/pháp bảo;
-- bảng công pháp/cảnh giới;
-- bảng thuật ngữ;
-- bảng sự kiện lịch sử.
+- bảng địa danh proper noun;
+- bảng tổ chức/phe;
+- bảng pháp bảo/vũ khí/vật phẩm cần đổi tên;
+- bảng thuật ngữ cần đổi tên.
 
-Tên mới phải nhất quán và không tái dùng tên nguồn.
+Tách riêng danh sách **Protected Source Structures**:
+- cảnh giới/realm ladder;
+- major plot events;
+- historical events;
+- chronology;
+- arc order;
+- core mystery ladder;
+- progression landmarks.
+
+Các cấu trúc protected mặc định giữ nguyên.
+
+Mỗi tên mới phải pass Genre Fit Gate trước khi được dùng ở file canon khác.
 
 ### Bước D — Narrative DNA
 
 Sinh `memory/narrative_dna.md` từ hồ sơ mẫu.
 
 Phải khóa:
-- premise mới;
+- premise;
 - central fantasy;
-- genre mix;
+- genre/subgenre;
 - story engine;
 - chapter loop;
 - arc loop;
@@ -228,7 +328,8 @@ Phải khóa:
 - retention formula;
 - setup/payoff rules;
 - hook/cliffhanger cadence;
-- emotional rhythm.
+- emotional rhythm;
+- fidelity constraints.
 
 ### Bước E — Story Bible
 
@@ -244,7 +345,8 @@ Phải khóa:
 - mystery layers;
 - endgame direction;
 - forbidden retcons;
-- transformation constraints từ Clone Map.
+- protected source structures;
+- allowed adaptation budget.
 
 Sau khi Story Bible pass review, tạo `memory/canon.md` làm manifest canon ngắn gọn.
 
@@ -254,42 +356,47 @@ Sinh `memory/characters.md`.
 
 Mỗi nhân vật quan trọng cần:
 - tên mới;
-- function inherited from source;
+- inherited narrative function;
+- source archetype;
 - role;
 - external goal;
 - internal need;
-- fear / wound / flaw;
-- contradiction;
-- secret;
+- major personality axis;
+- fear/wound/flaw nếu source có;
+- secret nếu source có;
 - voice;
 - knowledge boundary;
 - skills/resources;
 - relationship hooks;
-- development arc;
-- source traits intentionally NOT copied.
+- development direction;
+- remapped surface identity;
+- prohibited inventions.
 
-Không chỉ đổi tên rồi giữ nguyên trauma, nghề, tính cách và mạng quan hệ.
+Không tự làm nhân vật “mới hơn” bằng cách thêm trauma, thân phận, hệ thống, huyết mạch hay mục tiêu lớn ngoài profile.
 
-### Bước G — Clone World + Factions + Power System
+### Bước G — World + Factions + Power System
 
 Sinh riêng:
 - `memory/world.md`
 - `memory/factions.md`
 - `memory/power_system.md`
 
-World phải remap địa lý, chính trị, xã hội, kinh tế, văn hóa, lịch sử và tài nguyên.
+World ưu tiên giữ ontology, thời đại, logic xã hội và lịch sử nền của source. Remap tên địa danh/phe khi cần nhưng không đổi sang thẩm mỹ của thể loại khác.
 
-Factions phải có mục tiêu, ideology, hierarchy, resources, methods, weakness và conflict matrix riêng.
+Factions giữ narrative role và conflict structure gần source; chỉ đổi identity layer và chi tiết phụ cần thiết.
 
-Power System phải có:
+Power System phải giữ realm ladder/cảnh giới theo source mặc định. Theo dõi:
 - nguồn sức mạnh;
-- thang tiến triển;
-- điều kiện breakthrough;
+- access;
+- cảnh giới/grade ladder;
+- breakthrough requirement;
+- resource economy;
 - cost;
 - counter;
-- resource economy;
-- exceptions;
-- progression budget theo arc.
+- exception;
+- progression budget.
+
+Không tự thiết kế hệ sức mạnh mới nếu source đã có hệ thống hoàn chỉnh.
 
 ### Bước H — Timeline + Relationships + Theme
 
@@ -298,28 +405,17 @@ Sinh:
 - `memory/relationships.md`
 - `memory/theme.md`
 
-Timeline gồm:
-- historical timeline;
-- current-story timeline;
-- arc timeline.
+Timeline phải bảo toàn historical backbone và major event order của source theo mặc định.
 
-Relationship Map phải có hướng, trạng thái ban đầu, chuyển biến dự kiến, power balance và secrets.
+Relationship Map giữ vai trò và hướng phát triển chính; chỉ thay identity/surface detail nếu cần.
 
-Theme phải ghi:
-- central theme;
-- subthemes;
-- counter-theme;
-- moral questions;
-- reward/punishment logic;
-- motifs mới.
+Theme giữ central theme, subtheme và reward/punishment logic gần source; motif ngôn ngữ có thể làm mới nếu không đổi ý nghĩa.
 
 ### Bước I — Style Clone
 
 Sinh `memory/style_guide.md` từ section cách hành văn của hồ sơ mẫu.
 
-Phân biệt hai lớp:
-
-**Giữ:**
+**Giữ kỹ thuật:**
 - POV/distance;
 - sentence rhythm;
 - paragraph rhythm;
@@ -329,30 +425,30 @@ Phân biệt hai lớp:
 - action/investigation/emotion technique;
 - tension/payoff technique.
 
-**Tạo mới:**
-- vocabulary;
-- simile bank;
-- slang;
-- catchphrase;
-- running jokes;
-- ritual wording;
-- signature imagery.
+**Tạo mới ở lớp câu chữ:**
+- wording cụ thể;
+- câu thoại;
+- ví von/ẩn dụ;
+- catchphrase/running joke nếu cần;
+- signature prose imagery.
+
+Lớp ngôn ngữ mới vẫn phải đúng genre/tone của source.
 
 ### Bước J — Outline Clone
 
 Sinh `memory/outline.md`.
 
-Không cần bootstrap macro outline từ đầu. Dùng arc/timeline kể chuyện của hồ sơ mẫu làm khung chức năng.
+Không bootstrap macro outline trắng và không buộc tạo causal chain mới.
 
 Với mỗi arc nguồn:
-1. xác định function;
-2. xác định promise;
-3. xác định escalation;
-4. xác định midpoint/reversal;
-5. xác định climax/payoff;
-6. tạo arc mới có cùng chức năng nhưng causal chain và biểu hiện mới.
+1. ghi lại source arc function;
+2. giữ event backbone và causal chain chính;
+3. giữ promise, midpoint, climax, payoff và consequence;
+4. remap identity layer;
+5. chỉ adapt chi tiết tối thiểu khi tên/world identity mới khiến chi tiết cũ không còn hợp lý;
+6. audit genre fit và plot drift.
 
-Sau macro outline, lập rolling beats **10–20 chương phía trước**.
+Sau macro outline, lập rolling beats **10–20 chương phía trước** bám sát timeline/source arc tương ứng.
 
 ### Bước K — Initial State
 
@@ -392,10 +488,12 @@ Trước batch N..N+9 phải đọc:
 13. 5–10 summary gần nhất
 14. `open_loops.md`
 15. `style_guide.md`
+16. fidelity constraints và protected source structures từ `clone_map.md`.
 
 ### 6.2. Batch Plan
 
 Trước khi draft, lập plan 10 chương gồm:
+- source beat/arc anchor;
 - objective;
 - opening pressure;
 - main conflict;
@@ -405,13 +503,12 @@ Trước khi draft, lập plan 10 chương gồm:
 - relationship delta;
 - setup/payoff;
 - end hook;
-- contribution vào mini-arc 10 chương.
+- contribution vào mini-arc 10 chương;
+- deviation note nếu có khác source profile.
 
-Kiểm tra 10 chương không lặp cùng một hook, cùng một cấu trúc combat hoặc cùng một kiểu reveal.
+Mọi deviation lớn phải có lý do canon cụ thể; nếu không có thì quay về source beat.
 
 ### 6.3. Draft tuần tự — không song song
-
-Dù user yêu cầu 10 chương trong một lần, phải xử lý nội bộ:
 
 ```text
 Chương N
@@ -435,6 +532,8 @@ Mỗi chương phải pass:
 - Power Accounting Gate
 - Style Gate
 - Audio Gate
+- **Genre Fit Gate**
+- **Source Fidelity Gate**
 
 Nếu fail, sửa ngay trước khi viết chương kế tiếp.
 
@@ -454,7 +553,11 @@ Audit toàn batch:
 - lặp từ/câu/cấu trúc;
 - voice drift;
 - mức độ bám Narrative DNA;
-- nguy cơ trở thành bản đổi tên của nguồn.
+- **genre drift**;
+- **plot drift so với source profile**;
+- **over-creation: lore/arc/nhân vật/twist mới không có căn cứ**;
+- tên gọi mới có đúng thể loại không;
+- cảnh giới, major events và historical backbone có bị thay đổi ngoài ý muốn không.
 
 Nếu batch fail, sửa các chương liên quan rồi audit lại.
 
@@ -482,6 +585,8 @@ Chỉ sau khi batch pass:
 - Clock/time limit phải giảm đúng.
 - Setup đã đóng không được tự mở lại nếu không có lý do canon.
 - Một reveal lớn phải cập nhật nhận thức của các nhân vật liên quan ở những chương sau.
+- Cảnh giới và progression landmarks không được tự đổi khỏi source profile.
+- Major event order không được tự đảo hoặc bỏ.
 
 ---
 
@@ -507,6 +612,8 @@ Pipeline/templates có thể phát triển trên branch `pipeline/*` rồi merge
 Dùng hồ sơ mẫu tôi cung cấp.
 Tạo truyện mới với slug <slug> theo profile-clone pipeline.
 Tạo branch story/<slug>.
+Dùng Conservative Clone: giữ đúng thể loại, cảnh giới, sự kiện, lịch sử và plot backbone.
+Identity Remap chỉ đổi lớp định danh cần thiết và mọi tên mới phải pass Genre Fit Gate.
 Clone toàn bộ initial memory, review consistency, chưa viết chương 1.
 ```
 
@@ -525,7 +632,9 @@ Viết batch 10 chương tiếp theo.
 ### Audit trước khi tiếp tục
 
 ```text
-Audit continuity toàn branch hiện tại, sửa memory nếu có mâu thuẫn đã được chapter final xác nhận, rồi mới lập batch kế tiếp.
+Audit continuity + source fidelity toàn branch hiện tại.
+Sửa memory nếu có mâu thuẫn đã được chapter final xác nhận.
+Kiểm tra genre drift, plot drift và over-creation rồi mới lập batch kế tiếp.
 ```
 
 ---
@@ -535,18 +644,23 @@ Audit continuity toàn branch hiện tại, sửa memory nếu có mâu thuẫn 
 ### Initial clone hoàn tất khi
 - branch truyện riêng đã tồn tại;
 - profile nguồn được ghi nhận;
-- clone_map pass;
+- Clone Map pass;
+- Protected Source Structures đã được ghi rõ;
+- Identity Remap pass Genre Fit Gate;
 - Narrative DNA pass;
 - Story Bible pass;
 - Characters/World/Factions/Power/Timeline/Relationships/Theme pass;
 - Style Guide pass;
 - Macro Outline + rolling beats pass;
 - current_state tại chương 0 nhất quán;
-- không còn tên/địa danh/pháp bảo/thuật ngữ nguồn bị sót ngoài `source/profile.md` hoặc phần đối chiếu trong `clone_map.md`.
+- cảnh giới, major events, lịch sử và plot backbone không bị thay đổi ngoài adaptation budget;
+- không có lore/arc/nhân vật lớn được thêm chỉ để “sáng tạo hơn”;
+- câu chữ và dialogue không sao chép source.
 
 ### Batch 10 chương hoàn tất khi
 - đủ 10 chapter final;
 - từng chương pass mini gate;
 - toàn batch pass batch gate;
+- không có genre drift hoặc plot drift đáng kể;
 - memory cập nhật đến đúng chapter cuối;
 - rolling outline còn tối thiểu 10 beat phía trước hoặc đã được bổ sung.
