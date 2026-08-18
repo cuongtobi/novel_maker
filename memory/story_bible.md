@@ -7,18 +7,30 @@
 - Clone mode: Conservative Clone
 - Working title: **Hương Hỏa Trấn Quỷ**
 - Source coverage: C001–C100
-- Canon authority: `memory/canon.md` after initial audit; detailed facts live in specialized memory files.
+- Canon authority: `memory/canon.md`; operational state lives in `memory/current_state.md`, while detailed facts live in specialized memory files.
 
 ## Core premise
 Linh hồn một sinh viên hiện đại nhập vào thân xác **Tạ Hoài Chân** đã chết ở **Đại Ninh**. Trong thức hải có **Thần Tướng Đồ**; năng lực **Phệ Quỷ** biến quỷ thành nguồn sức mạnh/ký ức nhưng mang nguy cơ oán niệm và mất bản ngã. Hương hỏa chân thành có thể tác động Thần Tướng Đồ và mở truyền thừa.
 
-## Starting state — chapter 0
+## Starting state — chapter 0 baseline
 - Era: năm **Thừa Bình thứ bảy**.
 - Initial location: huyện **Thanh Khê**, **Tĩnh Châu**, Đại Ninh.
 - Hoài Chân: nghèo, thân thể yếu, chưa nhập cảnh giới, không có công pháp đã làm chủ.
 - Knowledge: có ký ức đời hiện đại; chưa hiểu rõ quy tắc của Thần Tướng Đồ/Phệ Quỷ.
 - Story-world supernatural institutions exist but protagonist has not yet learned their full structure.
-- No chapter has been accepted.
+- This section is the immutable **chapter-0 baseline**, not the live story state.
+
+## Accepted milestone — after C010
+- Current accepted chapter: **10**; live state is authoritative in `current_state.md`.
+- Hoài Chân remains **outside the formal realm ladder**; realm 1 is still protected for C017–18.
+- Accepted power knowledge: **Phệ Quỷ** benefit + memory/resentment backlash; sincere-hương interaction has been observed through controlled tests.
+- `Trấn Quỷ Chú/Ấn` is still locked until C012.
+- Lưu Lan is **alive through C010** after repeated possession; her husband is permanently dead.
+- Phùng Tĩnh/Trấn Tà Giám first professional contact is accepted at C009; Hoài Chân is not an external agent yet and does not know the full hierarchy/realm system.
+- C010 establishes the false-record problem: the old file says Liễu Nương was released/siêu độ and blames Lưu Bảo Sơn for the child death, while Liễu remains active and repeatedly calls for a child/Diệu Tông.
+- Bạch Thạch Kiều and Đổng Diệu Tông are accepted investigation facts, not resolved causal truth.
+- **Accepted minor early visual setup:** C002 contains an old drawing of a door closed by three nail-like objects. Hoài Chân does not identify or understand them. The protected C021 beat remains the first identification/meaningful soul-lock-nail evidence; do not upgrade the C002 image into early knowledge.
+- A Ninh chosen-family status, Chiêu Nguyệt, five-element conspiracy, U Tuyền/U Phủ and later reveals remain future planning canon only.
 
 ## POV / tone / pacing
 - POV: ngôi ba giới hạn, chủ yếu bám Tạ Hoài Chân; POV phụ ngắn chỉ khi source function cần.
@@ -130,6 +142,7 @@ Source profile C001–C100 chỉ mở hướng: protagonist tiến sâu vào U T
 - Protagonist is not confirmed at realm 3+ by C100.
 - No character may know future-source information before its reveal beat.
 - Source uncertainties remain uncertainties.
+- The C002 three-nail-like drawing cannot be retrospectively treated as a fully understood soul-lock reveal before C021.
 
 ## Initial Story Bible review
 - Genre/subgenre: PASS.
@@ -139,3 +152,10 @@ Source profile C001–C100 chỉ mở hướng: protagonist tiến sâu vào U T
 - Identity remap limited to namespace/surface: PASS.
 - Genre Fit: PASS.
 - Ready for downstream canon files: YES.
+
+## Post-C010 audit
+- Chapter-final vs Bible state: **PASS after correction**.
+- Genre drift: NONE.
+- Plot/progression drift: NONE.
+- Protected-structure drift: NONE.
+- Minor accepted fidelity note: C002 visual precursor to later soul-lock-nail clue, with semantics still locked to C021.
