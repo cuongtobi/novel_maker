@@ -12,11 +12,12 @@ Current accepted chapter: **10**.
 | Identity of Tạ Hoài Chân / original soul | **OPEN** | C001 body mismatch; deeper truth paid in village mega-arc | reveal murderer/original-soul mechanics in opening arc |
 | Thần Tướng Đồ / Phệ Quỷ | **OPEN** | C001–005: artifact present; Phệ Quỷ benefit+cost; sincere-hương response | explain ultimate origin or remove backlash |
 | Liễu Nương truth | **OPEN** | C003–010: eye/memory/possession; official file says already siêu độ; Bạch Thạch link; Diệu Tông contradiction | make her purely evil/purely innocent; reveal full sacrifice before source beat |
-| Bùi Huyền/Tống Mù secret | **OPEN** | C001–002: absent mentor legacy, hidden **Bùi Tùng Nhạc** tablet/notebook | identify Tống Mù as Bùi Huyền/mastermind too soon |
+| Bùi Huyền/Tống Mù secret | **OPEN** | C001–002: absent mentor legacy, hidden **Bùi Tùng Nhạc** tablet/notebook/old drawings | identify Tống Mù as Bùi Huyền/mastermind too soon |
+| Three-nail / soul-lock clue | **OPEN — VISUAL ONLY** | C002 old drawing shows a door closed by three nail-like forms; protagonist does not know what they are. Protected C021 remains first identification/meaningful material evidence. | call them soul-lock nails, link them to a faction, or solve their function before C021 |
 | Lục thúc rescue | PLANNED | father-taken event around C019 not yet accepted | capture/rescue/kill before source beat |
 | A Ninh family/progression | PLANNED | only inherited/local mention exists; chosen-family event not yet accepted | front-load ghost form, chosen-family status or troop powers |
 | Chiêu Nguyệt / Thượng Tôn feud | PLANNED | ally enters C045–50; family history later | reveal or mention feud early |
-| Five-element conspiracy | PLANNED | later opening ritual evidence → estate/forest pattern → village body | infer five-element mastermind from current bùn/thread clues |
+| Five-element conspiracy | PLANNED | later opening ritual evidence → estate/forest pattern → village body | infer five-element mastermind from current bùn/thread/three-nail visual clues |
 | U Tuyền / ninth seat | PLANNED | black token only after Bùi death → C083+ | mention seat structure before reveal |
 | U Phủ / Đi Âm war layer | PLANNED | Lục father hint later → An Lăng testimony/rules | state speculative war as fact |
 | Kỷ Thiên Cơ death | PLANNED | public history + sealed file later | invent killer/cause |
@@ -31,6 +32,7 @@ Current accepted chapter: **10**.
 3. **Đổng Diệu Tông — OPEN:** Liễu repeatedly calls the name; old household record confirms the man existed, but the closed case file does not explain his role.
 4. **Lưu Lan survival/grief — OPEN:** she is alive after possession; husband is permanently dead. Do not erase this consequence.
 5. **Phùng Tĩnh cooperation — OPEN:** first Trấn Tà Giám professional contact has begun; full institution/realm knowledge is not yet unlocked.
+6. **C002 three-nail visual precursor — OPEN:** remember the image exists, but do not supply its soul-lock meaning until C021.
 
 ## Progression locks for next beats
 - C011: no new protagonist skill; threat ladder/professional rule explanation may enter after experienced danger.
