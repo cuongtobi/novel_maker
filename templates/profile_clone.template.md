@@ -1,6 +1,6 @@
 # Profile Clone Template
 
-Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
+Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu theo chế độ **Conservative Clone**.
 
 ## 0. Story identity
 - Story slug:
@@ -9,6 +9,9 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - Target chapters:
 - Language: vi-VN
 - Source profile path: `source/profile.md`
+- Source genre/subgenre:
+- Source cultural/aesthetic frame:
+- Naming system notes:
 
 ---
 
@@ -16,44 +19,72 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 
 ## 1.1. Element mapping
 
-| Source element | Narrative function | Action | New equivalent | What stays | What changes | Risk |
+| Source element | Narrative function | Fidelity class | New/retained equivalent | What stays | Minimal changes allowed | Genre-fit note |
 |---|---|---|---|---|---|---|
-| | | KEEP_FUNCTION / ADAPT / REPLACE / DROP | | | | |
+| | | KEEP_FUNCTION / KEEP_CANON / ADAPT_MINIMAL / REMAP_IDENTITY / DROP | | | | |
 
-## 1.2. Identity remap
+## 1.2. Protected Source Structures
+
+Các mục dưới đây mặc định không thay đổi trừ khi user yêu cầu hoặc continuity bắt buộc:
+
+### Realm / progression ladder
+- Source ladder:
+- KEEP_CANON scope:
+- Allowed minimal changes:
+
+### Major plot events
+| Source event | Chapter/arc position | Function | Keep result/order? | Allowed minimal change |
+|---|---|---|---|---|
+
+### Historical backbone
+| Source historical event | Relative order | Function | KEEP_CANON? | Allowed minimal change |
+|---|---|---|---|---|
+
+### Chronology / arc order
+- Arc order:
+- Major progression landmarks:
+- Core mystery ladder:
+- Endgame direction:
+
+## 1.3. Identity remap
+
+Chỉ remap lớp proper noun/identity cần thiết. Mọi tên mới phải pass Genre Fit Gate.
 
 ### Characters
-| Source name | New name | Role/function | Notes |
-|---|---|---|---|
+| Source name | New name | Role/function kept | Genre-fit rationale | Surface changes only |
+|---|---|---|---|---|
 
 ### Locations
-| Source location | New location | Function | What changes |
-|---|---|---|---|
+| Source location | New location | Function kept | Genre-fit rationale | Minimal change |
+|---|---|---|---|---|
 
 ### Factions
-| Source faction | New faction | Function | Structure changes |
-|---|---|---|---|
-
-### Power terms
-| Source term | New term/system | Function | Mechanic changes |
-|---|---|---|---|
+| Source faction | New faction | Function kept | Genre-fit rationale | Minimal change |
+|---|---|---|---|---|
 
 ### Artifacts / weapons / resources
-| Source item | New item | Function | Mechanic changes |
+| Source item | New item/name | Function kept | Genre-fit rationale | Mechanic preserved? |
+|---|---|---|---|---|
+
+### Terms that really need remap
+| Source term | New term | Why remap is necessary | Genre-fit rationale |
 |---|---|---|---|
 
-### Historical anchors
-| Source event | New event | Function | Causal changes |
-|---|---|---|---|
+### Terms explicitly NOT remapped
+| Source term | Category | Reason to keep |
+|---|---|---|
+| | realm / event / history / chronology / other | |
 
 ---
 
 # 2. Narrative DNA
 
 ## Premise
-- New premise:
+- Source premise anchor:
+- New-story wording of premise:
 - Central fantasy:
 - Reader promise:
+- Maximum allowed deviation:
 
 ## Genre mix
 - Investigation:
@@ -63,6 +94,7 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - Comedy:
 - Romance:
 - Politics:
+- Other:
 
 ## Story engine
 1.
@@ -98,6 +130,12 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 
 ## Hook/cliffhanger cadence
 - 
+
+## Fidelity constraints
+- Genre/subgenre must not drift:
+- Plot backbone that must stay:
+- Protected power/history/event structures:
+- Major inventions forbidden without user request:
 
 ---
 
@@ -135,9 +173,19 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 ## Forbidden retcons
 - 
 
-## Transformation constraints
-- Elements from source that must not be copied literally:
-- Elements allowed to preserve only as function:
+## Protected source structures
+- Realm/cảnh giới:
+- Major events:
+- Historical backbone:
+- Chronology:
+- Arc order:
+- Mystery ladder:
+- Progression landmarks:
+
+## Adaptation budget
+- Mandatory remap:
+- Allowed minimal adaptation:
+- Not allowed without user request:
 
 ---
 
@@ -146,31 +194,37 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 ## Character template
 
 ### [New name]
+- Source archetype:
 - Source function inherited:
 - Role:
 - External goal:
 - Internal need:
-- Fear:
-- Wound:
-- Flaw:
-- Contradiction:
-- Secret:
+- Major personality axis:
+- Fear/wound/flaw from source if applicable:
+- Secret from source if applicable:
 - Voice:
 - Knowledge boundary:
 - Skills/resources:
 - Relationship hooks:
-- Development arc:
-- Traits intentionally changed from source:
+- Development direction:
+- Surface identity remap:
+- Semantic-equivalent profession/title if changed:
+- Prohibited inventions:
+- Genre-fit check:
+
+Không tự thêm trauma, huyết mạch, hệ thống, thân phận, bí mật, nghề, mục tiêu hoặc quan hệ lớn ngoài căn cứ của source profile.
 
 ---
 
 # 5. World
 
 ## Geography
-- 
+- Source structure retained:
+- Proper nouns remapped:
 
 ## Political order and law
-- 
+- Source structure retained:
+- Minimal adaptation:
 
 ## Society and class
 - 
@@ -185,14 +239,15 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - 
 
 ## Supernatural ontology
-- 
+- Source ontology retained:
 
 ## History
-- 
+- Historical backbone retained:
+- Historical events protected:
 
 ## Functional atlas
-| Location | Story function | Controller | Pressure/opportunity |
-|---|---|---|---|
+| Location | Story function | Controller | Pressure/opportunity | Genre-fit |
+|---|---|---|---|---|
 
 ---
 
@@ -201,6 +256,7 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 ## Faction template
 
 ### [Faction name]
+- Source faction function:
 - Type:
 - Goal:
 - Ideology:
@@ -213,6 +269,8 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - Strengths:
 - Weaknesses:
 - Current relation to protagonist:
+- Identity remap only:
+- Genre-fit check:
 
 ## Conflict matrix
 | A \ B | Faction 1 | Faction 2 | Faction 3 |
@@ -222,6 +280,10 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 
 # 7. Power System
 
+## Source power system status
+- KEEP_CANON / ADAPT_MINIMAL:
+- Reason:
+
 ## Sources of power
 - 
 
@@ -229,6 +291,12 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 1.
 2.
 3.
+
+## Realm preservation
+- Source realm names kept:
+- Source order kept:
+- Breakthrough logic kept:
+- Explicit user-requested changes only:
 
 ## Breakthrough rules
 - 
@@ -246,38 +314,40 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - 
 
 ## Progression budget
-| Arc | Start level | End target | Unlocks | Cost/limit |
-|---|---|---|---|---|
+| Arc | Start level | End target | Unlocks | Cost/limit | Source anchor |
+|---|---|---|---|---|---|
 
 ---
 
 # 8. Timeline
 
-## Historical timeline
-| Relative time | Event | Participants | Consequence | Certainty |
-|---|---|---|---|---|
+## Historical timeline — KEEP_CANON by default
+| Relative time | Source event | Retained event/name | Participants | Consequence | Allowed minimal change |
+|---|---|---|---|---|---|
 
 ## Story timeline
-| Chapter range | In-world time | Main events | Time skip / deadline |
-|---|---|---|---|
+| Chapter range | In-world time | Main events | Source event anchor | Time skip / deadline |
+|---|---|---|---|---|
 
 ## Arc timeline
-| Arc | Chapter range | Function | Midpoint | Climax | State change |
-|---|---|---|---|---|---|
+| Arc | Chapter range | Source arc | Function | Midpoint | Climax | State change |
+|---|---|---|---|---|---|---|
 
 ---
 
 # 9. Relationship Map
 
-| A | B | Direction | Public relation | Real relation | Trust | Debt/leverage | Secret | Planned change |
-|---|---|---|---|---|---|---|---|---|
+| A | B | Direction | Source function | Public relation | Real relation | Trust | Debt/leverage | Secret | Planned change |
+|---|---|---|---|---|---|---|---|---|---|
+
+Giữ relationship function và hướng phát triển chính gần source.
 
 ---
 
 # 10. Theme
 
 ## Central theme
-- 
+- Source theme retained:
 
 ## Subthemes
 - 
@@ -291,8 +361,9 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 ## Reward / punishment logic
 - 
 
-## New motifs
-- 
+## Motifs
+- Source motif function:
+- New wording/imagery if needed:
 
 ---
 
@@ -323,18 +394,20 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 ## Tension and payoff
 - 
 
-## Create-new language layer
-- Vocabulary bank:
-- Simile/metaphor bank:
-- Slang:
-- Running jokes:
+## Create-new wording layer
+- Vocabulary choices:
+- Simile/metaphor wording:
+- Slang wording:
+- Running jokes wording:
 - Ritual wording:
-- Signature imagery:
+- Signature prose imagery:
+
+Mọi lựa chọn ngôn ngữ mới phải cùng genre/tone với source.
 
 ## Do-not-copy list
 - Source catchphrases:
 - Source recurring jokes:
-- Source iconic imagery:
+- Source iconic prose wording:
 - Source ritual wording:
 
 ---
@@ -345,29 +418,34 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - Target chapters:
 - Arc count:
 - End-state:
+- Source arc order retained:
+- Maximum plot deviation allowed:
 
-### Arc N — [new name] ([start]-[end])
+### Arc N — [new name if identity remap is necessary] ([start]-[end])
+- Source arc:
 - Source arc function:
-- New arc promise:
+- Source event backbone:
+- Source causal chain to preserve:
+- Source promise:
 - Objective:
 - Antagonistic pressure:
-- New causal chain:
-- Main location:
+- Main location / remapped name:
 - Mystery/revelation:
 - Power progression:
 - Relationship progression:
-- Midpoint function:
-- New midpoint event:
-- Climax function:
-- New climax event:
+- Midpoint to preserve:
+- Climax to preserve:
 - Cost/consequence:
-- Payoff function:
-- New payoff:
+- Payoff to preserve:
 - Hook to next arc:
+- Minimal adaptations required:
+- Genre-fit check:
+- Plot-drift check:
 
 ## Rolling 10–20 chapter beats
 
 ### Chapter N — [working title]
+- Source beat / event anchor:
 - Opening pressure:
 - Objective:
 - Opposition:
@@ -379,3 +457,21 @@ Dùng template này khi khởi tạo một truyện mới từ hồ sơ mẫu.
 - Setup/payoff:
 - State change:
 - End hook:
+- Deviation from source, if any:
+- Why deviation is minimum necessary:
+
+---
+
+# 13. Initial Fidelity Audit
+
+- [ ] Genre/subgenre unchanged.
+- [ ] Naming system fits source era/culture/aesthetic.
+- [ ] Realm/cảnh giới unchanged unless user requested.
+- [ ] Major events preserved.
+- [ ] Historical backbone and chronology preserved.
+- [ ] Arc order and major progression landmarks preserved.
+- [ ] Character functions and core motivations preserved.
+- [ ] No new major lore/arc/twist/antagonist/character history without source support.
+- [ ] Only identity layer and wording changed where necessary.
+- [ ] No copied prose/catchphrase/dialogue from source.
+- [ ] Cross-file consistency pass.
