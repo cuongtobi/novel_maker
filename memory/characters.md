@@ -1,6 +1,6 @@
 # Characters — Hương Hỏa Trấn Quỷ
 
-Canon file uses only the **new namespace**. Source↔new identity mapping lives exclusively in `clone_map.md`. Functions, goals, secrets, limits and development directions inherit from the C001–C100 profile.
+Canon file uses only the **new namespace**. Source↔new identity mapping lives exclusively in `clone_map.md`. Functions, goals, secrets, limits and development directions inherit from the C001–C100 profile. Current accepted status must never be confused with future source trajectory.
 
 ## Core cast
 
@@ -147,10 +147,10 @@ Canon file uses only the **new namespace**. Source↔new identity mapping lives 
 | New identity | Function / locked status |
 |---|---|
 | Bùi Tùng Nhạc | father/tablet clue to Bùi Huyền identity |
-| Lưu Lan | first believer, possessed victim, dies |
+| Lưu Lan | first believer and possessed victim; **alive through accepted C010**; later source trajectory must only become current fact when the corresponding chapter is accepted |
 | Lưu Bảo Sơn | name in false old case file |
-| Tiểu Miên | Liễu Nương's sacrificed child/water ghost |
-| Đổng Diệu Tông | betrayer/father/sacrificer; later fire ghost |
+| Tiểu Miên | Liễu Nương's sacrificed child/water ghost; causal truth remains future knowledge at C010 |
+| Đổng Diệu Tông | betrayer/father/sacrificer in planning canon; at C010 Hoài Chân only knows he existed and is omitted from the closed case file |
 | Lão Tỏa Gia | Phùng Tĩnh's hidden hanging-ghost helper |
 | Đỗ Hoán Sinh | murdered wealthy father asking justice |
 | Đỗ Đại công tử | manipulative elder son |
@@ -179,8 +179,16 @@ Canon file uses only the **new namespace**. Source↔new identity mapping lives 
 | Tần Tĩnh Võ | founding general / sword lineage |
 | Huyền Cốc tiên sư | ancient national preceptor in character testimony |
 
+## Accepted C010 status gate
+- Hoài Chân: no formal realm; Phệ Quỷ confirmed; sincere-hương rule observed; no Trấn Quỷ Chú yet.
+- Phùng Tĩnh: first professional cooperation only; his realm/long-term friendship trajectory is planning canon and has not been taught to Hoài Chân.
+- Lưu Lan: alive, bereaved, under protection after temporary release from possession; husband dead permanently.
+- Tống Mù: absent mentor/foster frame under suspicion only; Bùi Huyền identity unknown to protagonist.
+- A Ninh: only indirect inherited/local mention; no chosen-family status on accepted page.
+- Chiêu Nguyệt: not yet encountered.
+
 ## Knowledge-gate rules
-- Future identities are planning canon, **not** chapter-0 character knowledge.
+- Future identities/functions are planning canon, **not current character knowledge unless an accepted chapter has revealed them**.
 - Hoài Chân cannot know Bùi Huyền, U Tuyền, seat identities, U Phủ mechanics or sealed history before source-equivalent reveal beats.
 - A Ninh's later powers cannot be front-loaded.
 - Chiêu Nguyệt's revenge history is revealed only at corresponding source timing.
