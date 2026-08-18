@@ -29,10 +29,31 @@ Names changed; chronology, order, outcomes and uncertainty class remain source-e
 | 8 | C081–C089 | Ngọc Long–U Tuyền | dragon obligation; enemy token; hidden gathering; infiltration; deadly exam; Chiêu Nguyệt knows plan but leaves for skin case |
 | 9 | C090–C100 | An Lăng–Đi Âm | second-head exam; U Sương/underworld soldiers; Hộ Pháp method; Vệ Nhị; dragon rescue; paper substitute; child-killing secret; Tân=Bì Tướng Chủ |
 
-## C. Progression chronology
-1. C003–004: Phệ Quỷ benefit + backlash demonstrated.
-2. C012: Trấn Quỷ Chú/Ấn.
-3. C017–018: realm 1 `Điều Long Hổ`.
+## C. Accepted prose timeline — C001–C010
+| Chapter | Accepted event/state change | Time / clock | Source-fidelity note |
+|---:|---|---|---|
+| C001 | Hoài Chân wakes in dead body at Thanh Khê; Thần Tướng Đồ observed; Tống Mù legacy anomaly begins | Thừa Bình 7; exact date unspecified | source C001 function preserved |
+| C002 | hidden floor compartment reveals Bùi Tùng Nhạc tablet + Tống notebook; first hostile eye appears | following night/day sequence; no exact calendar date invented | C002 clue function preserved |
+| C003 | Phệ Quỷ first confirmed; body/sight gain + resentment/memory cost; Liễu possession of Lưu Lan appears | sequential | progression landmark exact |
+| C004 | Hoài Chân nearly loses judgment to resentment; uses controlled Phệ Quỷ to push Liễu from Lưu Lan | sequential | cost/limit preserved |
+| C005 | sincere-hương rule tested; self/paid worship does not match genuine belief; child voice appears at Lưu house | sequential | hương rule preserved |
+| C006 | Hoài Chân learns Đại Ninh has existed about six centuries; transactional hương limit reinforced; Lưu Lan returns home with husband | sequential | geography/history orientation preserved; no cause invented |
+| C007 | possessed Lưu Lan kills husband; human-flesh bowl + polluted devotional image; husband death permanent | night | body-horror/moral-cost beat preserved |
+| C008 | Hoài Chân chooses not to flee; Liễu establishes **chính-ngọ next-day** pressure; Phùng Tĩnh arrives | countdown starts | source C008 choice/time-pressure function preserved |
+| C009 | first Trấn Tà Giám professional contact; Phùng's mirror/talismans shown to have limits; joint temporary exorcism | before deadline | institution entry preserved; threat ladder not yet explained |
+| C010 | official file says Liễu case closed/siêu độ and blames Lưu Bảo Sơn for child death; Diệu Tông contradiction + Bạch Thạch location found | morning, hours before chính ngọ | false-record beat preserved |
+
+### End-C010 handoff
+- Active location: leaving archive for Bạch Thạch Kiều.
+- Active clock: Liễu Nương chính-ngọ pressure.
+- Hoài Chân realm: none.
+- Opened power: Phệ Quỷ only; sincere-hương interaction observed.
+- Next protected beat: C011 threat ladder + cost; C012 Trấn Quỷ Chú/Ấn.
+
+## D. Progression chronology — protected
+1. C003–004: Phệ Quỷ benefit + backlash demonstrated. **ACCEPTED.**
+2. C012: Trấn Quỷ Chú/Ấn. **NOT YET.**
+3. C017–018: realm 1 `Điều Long Hổ`. **NOT YET.**
 4. C023 onward: sword-refining method; C033 completion.
 5. C038–039: three cultivation images; realm 2 `Trăm Ngày Quan`.
 6. C051–060: publication → hương; divine page fills; body-lock cultivation.
@@ -42,8 +63,8 @@ Names changed; chronology, order, outcomes and uncertainty class remain source-e
 10. C098: Chiết Chỉ/paper-substitute method reaches A Ninh.
 11. C100: protagonist still realm 2; no realm-3 confirmation.
 
-## D. Reveal chronology
-- first case file is wrong → victim memory gives another truth;
+## E. Reveal chronology — protected
+- first case file is wrong → victim memory gives another truth; **first half accepted at C010; full truth not yet**
 - five-element incidents link prior local cases;
 - apparent benefactor/foster mentor becomes long-arc murderer/body designer;
 - original protagonist soul/history is revealed;
@@ -52,7 +73,7 @@ Names changed; chronology, order, outcomes and uncertainty class remain source-e
 - An Lăng exam opens U Phủ/Đi Âm secret;
 - C100 identifies eighth-seat examiner as skin-case enemy.
 
-## E. Post-C100
+## F. Post-C100
 `UNSPECIFIED BY CURRENT SOURCE PROFILE.`
 
 Do not invent C101+ major events, historical reveals, realm progression or a new arc merely to satisfy the 200–300 chapter target. Continue only from a later source profile or explicit user instruction that relaxes Conservative Clone.
