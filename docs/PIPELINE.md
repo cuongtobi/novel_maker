@@ -1,294 +1,552 @@
-# PIPELINE — Truyện tiên hiệp xuyên không hệ thống 200-300 chương
+# PIPELINE — Clone hồ sơ truyện → branch truyện → batch 10 chương
 
 ## 1. Mục tiêu
 
-Pipeline này dùng ChatGPT Web làm tác giả/biên tập viên và GitHub làm bộ nhớ dài hạn. Mỗi bước sinh ra artifact rõ ràng để bước sau đọc lại được, không phụ thuộc vào lịch sử chat.
+Pipeline này dùng **hồ sơ giải mã của một truyện có sẵn** làm nguồn tham chiếu để khởi tạo truyện mới. Không bootstrap ý tưởng từ số 0 theo quy trình cũ.
 
-## 2. Các lớp dữ liệu
+ChatGPT Web chịu trách nhiệm phân tích, chuyển hóa, viết và review. GitHub là bộ nhớ dài hạn và source of truth.
 
-### Canon bất biến
-- premise
-- luật thế giới
-- hệ thống tu luyện
-- luật của hệ thống
-- mốc lịch sử
-- giới hạn sức mạnh
-- bí mật cốt lõi
+Mỗi truyện chạy trên **một branch riêng**. `main` chỉ giữ pipeline, prompt và template.
 
-Lưu ở: `memory/canon.md`
+Mục tiêu mặc định:
+- truyện dài 200–300 chương;
+- tiếng Việt tự nhiên, phù hợp audio YouTube;
+- giữ mạnh Narrative DNA, story engine, nhịp tiến triển, cách gieo–thu, kiểu payoff và cấu trúc chức năng của hồ sơ mẫu;
+- thay toàn bộ lớp định danh và biểu hiện cụ thể để truyện mới có canon riêng;
+- có thể viết **batch 10 chương trong một lệnh**, nhưng phải xử lý tuần tự để continuity không vỡ.
 
-### State hiện tại
-- chương hiện tại
-- vị trí từng nhân vật
-- cảnh giới/tu vi
-- thương tích
-- vật phẩm đang giữ
-- quan hệ đang thay đổi
-- nhiệm vụ hệ thống đang mở
-- timeline hiện hành
+---
 
-Lưu ở: `memory/current_state.md`
+## 2. Nguyên tắc clone
 
-### Character memory
-Mỗi nhân vật quan trọng có:
-- mục tiêu
-- nỗi sợ
-- bí mật
-- tri thức họ thực sự biết
-- quan hệ
-- giọng thoại
-- trạng thái mới nhất
+### 2.1. Những gì được giữ gần hồ sơ mẫu
 
-Lưu ở: `memory/characters.md`
+Ưu tiên bảo toàn **chức năng**, không sao chép câu chữ:
+- Narrative DNA và central fantasy ở cấp chức năng;
+- story engine;
+- tỷ lệ pha trộn điều tra / hành động / tu luyện / hài / tình cảm / chính trị;
+- nhịp mở câu hỏi → điều tra → trả giá → payoff → mở tầng mới;
+- cấu trúc tăng stakes;
+- cadence reveal, hook và cliffhanger;
+- vai trò chức năng của arc;
+- nhịp progression;
+- cơ chế giữ chân;
+- style profile ở cấp nhịp câu, mật độ thoại, khoảng cách POV, cách đưa lore, cách mở/đóng cảnh;
+- theme ở cấp câu hỏi đạo đức và hệ thưởng–phạt.
 
-### World memory
-- khu vực
-- thế lực
-- cảnh giới
-- luật lệ
-- kinh tế/tài nguyên
-- địa lý
-- lịch sử
+### 2.2. Những gì bắt buộc remap
 
-Lưu ở: `memory/world.md`
+Mọi truyện mới phải có namespace riêng. Bắt buộc thay hoặc thiết kế lại:
+- tên nhân vật, biệt hiệu, danh xưng;
+- quốc gia, châu, thành, huyện, núi, sông, bí cảnh, không gian siêu nhiên;
+- tông môn, gia tộc, cơ quan, tổ chức, phe phái;
+- pháp bảo, vũ khí, đan dược, tài nguyên;
+- công pháp, kỹ năng, cảnh giới và thuật ngữ;
+- nghi lễ, biểu tượng, mỹ học siêu nhiên;
+- tên sự kiện lịch sử;
+- câu thoại, câu ví von, biệt ngữ và running joke.
 
-### Outline memory
-- mega arc
-- arc
-- chapter beat
-- setup/payoff
-- foreshadowing
+Không dùng thao tác “search & replace tên” đơn thuần.
 
-Lưu ở: `memory/outline.md`
+### 2.3. Giữ cốt truyện nhưng không thành bản đổi tên
 
-### Episodic memory
-Mỗi chương sau khi hoàn tất tạo 1 summary ngắn, chỉ giữ sự kiện có hậu quả.
+Mặc định giữ **macro plot function** gần mẫu, nhưng thay **concrete causality**.
 
-Lưu ở: `memory/chapter_summaries.md`
+Có thể giữ:
+- thứ tự chức năng lớn của các arc;
+- vị trí tương đối của reveal, setback, midpoint, climax;
+- kiểu tăng phạm vi xung đột;
+- vai trò cảm xúc của một beat;
+- thời điểm tương đối của power-up hoặc payoff.
 
-### Open loops
-Theo dõi:
-- bí mật chưa giải
-- lời hứa
-- vật phẩm chưa dùng
-- thù oán
-- nhiệm vụ
-- foreshadowing
-- câu hỏi cốt truyện
+Phải chuyển hóa:
+- nguyên nhân trực tiếp của vụ việc;
+- hình thức nạn nhân và vật chứng;
+- phương pháp điều tra/giải quyết;
+- quan hệ nhân vật tạo ra lựa chọn;
+- cơ chế sức mạnh dùng trong cao trào;
+- hình thức payoff;
+- chuỗi nhân quả nối arc.
 
-Lưu ở: `memory/open_loops.md`
+Mục tiêu là **fidelity cao ở cấu trúc chức năng, khoảng cách cao ở biểu hiện cụ thể**.
 
-## 3. Kiến trúc 10 bước
+### 2.4. Cách hành văn
 
-### Bước A — Bootstrap
-Sinh 3-5 concept khác nhau, chọn 1 concept có hook mạnh và có thể kéo 200-300 chương mà không phụ thuộc padding.
+Học từ hồ sơ mẫu ở cấp kỹ thuật:
+- POV và narrative distance;
+- tốc độ câu/đoạn;
+- mật độ thoại;
+- tỷ lệ exposition;
+- cách đưa luật thế giới sau khi hiện tượng xuất hiện;
+- kiểu mở cảnh và đóng cảnh;
+- cách viết action, investigation, cultivation, emotion, horror, comedy;
+- cách tạo tension bằng đồng hồ, tài nguyên, thông tin bất cân xứng;
+- kiểu setup/payoff.
 
-Output:
-- logline
-- selling point
-- protagonist
-- xuyên không mechanism
-- hệ thống mechanism
-- central mystery
-- endgame direction
+Không sao chép nguyên câu, thành ngữ đặc trưng, câu đe dọa, biệt hiệu, running joke hoặc đoạn mô tả từ nguồn.
 
-### Bước B — Story Bible
-Khóa:
-- tone
-- POV
-- nhịp truyện
-- độ dài chương
-- logic sức mạnh
-- luật hệ thống
-- giới hạn protagonist
-- romance level
-- comedy level
-- mức bạo lực
-- forbidden tropes
-- end-state
+---
 
-### Bước C — World Builder
-Tạo thế giới theo chiều dọc và chiều ngang:
-- phàm giới → tu chân giới → thượng giới nếu cần
-- bản đồ thế lực
-- tông môn
-- gia tộc
-- ma đạo
-- yêu tộc
-- bí cảnh
-- kinh tế tu luyện
-- cảnh giới
+## 3. Kiến trúc branch
 
-Không tạo lore chỉ để trang trí. Mỗi yếu tố phải có tác dụng với xung đột hoặc lựa chọn nhân vật.
+### `main`
+Chỉ chứa:
+- `docs/`
+- `prompts/`
+- `templates/`
+- hướng dẫn chung.
 
-### Bước D — Character Builder
-Tối thiểu:
-- protagonist
-- 2-4 đồng minh chính
-- 2-4 đối thủ dài hạn
-- 1 mentor hoặc anti-mentor
-- 1 nhân vật tình cảm nếu có
-- 3-6 nhân vật chức năng theo arc
+Không chứa canon của một truyện cụ thể.
 
-Mỗi nhân vật cần desire + fear + contradiction + secret + voice + knowledge boundary.
+### Mỗi truyện
+Tạo branch:
 
-### Bước E — Macro Outline
-Cho 200-300 chương, nên chia 8-12 arc.
+```text
+story/<slug>
+```
 
-Ví dụ 240 chương:
-- Arc 1: 1-20
-- Arc 2: 21-45
-- Arc 3: 46-70
-- Arc 4: 71-95
-- Arc 5: 96-120
-- Arc 6: 121-150
-- Arc 7: 151-180
-- Arc 8: 181-210
-- Arc 9: 211-240
+Ví dụ:
 
-Mỗi arc có:
-- mục tiêu
-- antagonistic force
-- mystery
-- power progression
-- emotional progression
-- midpoint reversal
-- climax
-- consequence
-- hook sang arc tiếp
+```text
+story/ma-dao-ky-an
+story/kiem-tien-trong-sinh
+```
 
-### Bước F — Chapter Beat Outline
-Chỉ outline chi tiết 10-20 chương phía trước, không khóa cứng toàn bộ 300 chương.
+Không ghi dữ liệu của hai truyện vào cùng branch.
 
-Mỗi chương có:
-- opening pressure
-- objective
-- conflict
-- revelation
-- cost
-- state change
-- hook
+---
 
-### Bước G — Context Assembly
-Trước khi viết chương N, ChatGPT phải đọc:
-1. `memory/canon.md`
-2. `memory/current_state.md`
-3. phần arc hiện hành trong `memory/outline.md`
-4. nhân vật xuất hiện trong chương
-5. 3-5 summary gần nhất
-6. `memory/open_loops.md`
+## 4. Cấu trúc dữ liệu của một story branch
 
-Không đọc toàn bộ truyện trừ khi đang audit continuity lớn.
+```text
+source/
+  profile.md
 
-### Bước H — Draft
-Viết chương hoàn chỉnh theo chapter plan.
+memory/
+  clone_map.md
+  narrative_dna.md
+  story_bible.md
+  canon.md
+  characters.md
+  world.md
+  factions.md
+  power_system.md
+  timeline.md
+  relationships.md
+  theme.md
+  style_guide.md
+  outline.md
+  current_state.md
+  chapter_summaries.md
+  open_loops.md
 
-Yêu cầu:
-- scene có mục tiêu và lực cản
-- tránh exposition dump
-- thoại gắn với tính cách
-- không giải thích điều người đọc vừa thấy
-- không lặp cảm xúc bằng 3 câu gần nghĩa
-- kết thúc bằng tension, revelation, decision hoặc consequence
+chapters/
+  0001.md
+  0002.md
+  ...
+```
 
-### Bước I — Review Gate
-Một chương chưa được coi là hoàn tất nếu chưa qua 4 cổng:
+`source/profile.md` là hồ sơ mẫu đã cung cấp, không phải canon của truyện mới.
 
-1. Canon gate
-- có phá luật thế giới không?
-- có dùng thông tin nhân vật chưa biết không?
-- có đổi cảnh giới/vật phẩm sai không?
+`memory/*.md` mới là canon/source of truth của truyện mới.
 
-2. Narrative gate
-- chương có mục tiêu?
-- có biến đổi trạng thái?
-- conflict có thực?
-- hook có đáng đọc tiếp?
+---
 
-3. Style gate
-- có mẫu câu AI?
-- có lạm dụng liệt kê?
-- có câu tổng kết thừa?
-- thoại có đồng giọng?
+## 5. Pipeline khởi tạo từ hồ sơ mẫu
 
-4. Audio gate
-- câu có quá dài?
-- ký hiệu có gây lỗi TTS?
-- tên riêng có nhất quán?
-- hội thoại có rõ người nói?
+### Bước A — Import Profile
 
-Nếu fail, sửa trước khi cập nhật memory.
+Đọc toàn bộ hồ sơ mẫu và xác định các section có sẵn.
 
-### Bước J — Memory Update
-Sau khi chương pass:
-- append summary chương
-- cập nhật current_state
-- cập nhật character nếu trạng thái thay đổi
-- cập nhật open_loops
-- đánh dấu setup/payoff đã dùng
-- không sửa canon nếu không có quyết định retcon rõ ràng
+Ưu tiên lấy:
+1. Narrative DNA
+2. Story Bible
+3. Characters
+4. World
+5. Factions
+6. Power System
+7. Timeline
+8. Relationship Map
+9. Theme
+10. Cách hành văn / Style Profile
+11. Outline hoặc timeline kể chuyện theo arc
+12. Blueprint có thể tái sử dụng
+13. Risk / yếu tố không nên bê nguyên
 
-## 4. Chống quên trong truyện dài
+Nếu hồ sơ thiếu section, ghi `MISSING`; không tự giả định nguồn có dữ liệu.
 
-### Rule 1 — Source of truth
-GitHub là nguồn sự thật. Chat hiện tại chỉ là workspace tạm thời.
+### Bước B — Clone Map
 
-### Rule 2 — Facts before prose
-Khi memory và prose mâu thuẫn, phải dừng và xác định fact canon trước khi viết tiếp.
+Tạo `memory/clone_map.md` trước mọi canon khác.
 
-### Rule 3 — Knowledge boundary
-Mỗi nhân vật chỉ được hành động dựa trên thông tin họ có.
+Mỗi yếu tố nguồn phải được xếp vào một trong bốn loại:
+- `KEEP_FUNCTION`: giữ chức năng tự sự;
+- `ADAPT`: giữ phần lõi nhưng đổi cơ chế biểu hiện;
+- `REPLACE`: thay hoàn toàn;
+- `DROP`: không dùng.
 
-### Rule 4 — Power accounting
-Mỗi lần tăng cảnh giới hoặc nhận skill phải ghi vào current_state.
+Clone Map tối thiểu phải có bảng cho:
+- protagonist;
+- companion / mentor / rival / antagonist;
+- địa danh;
+- phe phái;
+- hệ sức mạnh;
+- vật phẩm;
+- lịch sử;
+- relationship archetype;
+- theme;
+- arc function;
+- signature style technique.
 
-### Rule 5 — Open-loop accounting
-Mỗi setup quan trọng phải vào open_loops. Khi payoff xong phải đánh dấu closed.
+Mỗi dòng ghi rõ `Source → Function → New equivalent → What changes → What stays`.
 
-### Rule 6 — Periodic audit
-Mỗi 10 chương: audit continuity nhẹ.
-Mỗi 30 chương: audit arc + progression.
-Mỗi arc: audit toàn bộ open loops.
+### Bước C — Identity Remap
 
-## 5. Chống văn AI
+Tạo namespace mới trước khi viết canon:
+- bảng tên nhân vật;
+- bảng địa danh;
+- bảng tổ chức;
+- bảng vũ khí/pháp bảo;
+- bảng công pháp/cảnh giới;
+- bảng thuật ngữ;
+- bảng sự kiện lịch sử.
 
-Không thể bảo đảm máy dò AI sẽ coi văn bản là “human”, nhưng pipeline chủ động loại các dấu hiệu văn phong máy móc.
+Tên mới phải nhất quán và không tái dùng tên nguồn.
 
-Checklist:
-- không mở cảnh bằng mô tả chung chung nếu không có áp lực
-- tránh “không chỉ... mà còn...” lặp nhiều
-- tránh mọi đoạn đều kết luận đạo lý
-- tránh liên tục dùng ba tính từ/trạng từ song song
-- tránh nhân vật nói ra điều cả hai đã biết chỉ để giải thích cho độc giả
-- thay đổi nhịp câu theo cảnh
-- dùng chi tiết cảm giác cụ thể thay vì tính từ trừu tượng
-- để nhân vật hiểu sai hoặc bỏ sót thông tin hợp lý
-- cho mỗi giọng thoại có từ vựng, nhịp và mức trực tiếp riêng
-- không tối ưu mọi câu thành quá bóng bẩy
+### Bước D — Narrative DNA
 
-## 6. Audio YouTube
+Sinh `memory/narrative_dna.md` từ hồ sơ mẫu.
 
-Sau khi chapter final, tạo bản audio-safe:
-- bỏ markdown và tiêu đề kỹ thuật
-- giữ tiêu đề chương nếu kênh cần
-- đổi ký hiệu khó đọc thành chữ
-- chia câu quá dài
-- hạn chế dấu ngoặc
-- bảo toàn tên riêng
-- không thay nội dung truyện
+Phải khóa:
+- premise mới;
+- central fantasy;
+- genre mix;
+- story engine;
+- chapter loop;
+- arc loop;
+- escalation ladder;
+- retention formula;
+- setup/payoff rules;
+- hook/cliffhanger cadence;
+- emotional rhythm.
 
-Output đề xuất:
-`exports/audio/ch_0001.txt`
+### Bước E — Story Bible
 
-Có thể gộp 10-20 chương thành một file để sản xuất video dài.
+Sinh `memory/story_bible.md`.
 
-## 7. Cách vận hành trong ChatGPT Web
+Phải khóa:
+- premise;
+- POV;
+- tone;
+- scope;
+- protagonist limits;
+- hard rules;
+- mystery layers;
+- endgame direction;
+- forbidden retcons;
+- transformation constraints từ Clone Map.
 
-Khởi đầu:
-> Làm việc với repo cuongtobi/novel_maker. Đọc README và docs/PIPELINE.md. Khởi tạo một truyện mới theo pipeline. Trước mỗi bước hãy đọc memory liên quan trên GitHub, và sau khi tôi duyệt thì lưu artifact vào repo.
+Sau khi Story Bible pass review, tạo `memory/canon.md` làm manifest canon ngắn gọn.
 
-Viết chương:
-> Làm việc với repo cuongtobi/novel_maker. Viết chương kế tiếp theo pipeline. Đọc canon, current_state, arc outline, characters liên quan, 5 summary gần nhất và open_loops trước khi viết. Sau đó review continuity/style/audio. Nếu pass thì cập nhật memory và lưu chương.
+### Bước F — Clone Characters
 
-Audit:
-> Audit 10 chương gần nhất theo canon, timeline, character knowledge, power progression và open loops. Chỉ sửa memory nếu xác định được lỗi chắc chắn.
+Sinh `memory/characters.md`.
+
+Mỗi nhân vật quan trọng cần:
+- tên mới;
+- function inherited from source;
+- role;
+- external goal;
+- internal need;
+- fear / wound / flaw;
+- contradiction;
+- secret;
+- voice;
+- knowledge boundary;
+- skills/resources;
+- relationship hooks;
+- development arc;
+- source traits intentionally NOT copied.
+
+Không chỉ đổi tên rồi giữ nguyên trauma, nghề, tính cách và mạng quan hệ.
+
+### Bước G — Clone World + Factions + Power System
+
+Sinh riêng:
+- `memory/world.md`
+- `memory/factions.md`
+- `memory/power_system.md`
+
+World phải remap địa lý, chính trị, xã hội, kinh tế, văn hóa, lịch sử và tài nguyên.
+
+Factions phải có mục tiêu, ideology, hierarchy, resources, methods, weakness và conflict matrix riêng.
+
+Power System phải có:
+- nguồn sức mạnh;
+- thang tiến triển;
+- điều kiện breakthrough;
+- cost;
+- counter;
+- resource economy;
+- exceptions;
+- progression budget theo arc.
+
+### Bước H — Timeline + Relationships + Theme
+
+Sinh:
+- `memory/timeline.md`
+- `memory/relationships.md`
+- `memory/theme.md`
+
+Timeline gồm:
+- historical timeline;
+- current-story timeline;
+- arc timeline.
+
+Relationship Map phải có hướng, trạng thái ban đầu, chuyển biến dự kiến, power balance và secrets.
+
+Theme phải ghi:
+- central theme;
+- subthemes;
+- counter-theme;
+- moral questions;
+- reward/punishment logic;
+- motifs mới.
+
+### Bước I — Style Clone
+
+Sinh `memory/style_guide.md` từ section cách hành văn của hồ sơ mẫu.
+
+Phân biệt hai lớp:
+
+**Giữ:**
+- POV/distance;
+- sentence rhythm;
+- paragraph rhythm;
+- dialogue density;
+- exposition pattern;
+- opening/closing scene pattern;
+- action/investigation/emotion technique;
+- tension/payoff technique.
+
+**Tạo mới:**
+- vocabulary;
+- simile bank;
+- slang;
+- catchphrase;
+- running jokes;
+- ritual wording;
+- signature imagery.
+
+### Bước J — Outline Clone
+
+Sinh `memory/outline.md`.
+
+Không cần bootstrap macro outline từ đầu. Dùng arc/timeline kể chuyện của hồ sơ mẫu làm khung chức năng.
+
+Với mỗi arc nguồn:
+1. xác định function;
+2. xác định promise;
+3. xác định escalation;
+4. xác định midpoint/reversal;
+5. xác định climax/payoff;
+6. tạo arc mới có cùng chức năng nhưng causal chain và biểu hiện mới.
+
+Sau macro outline, lập rolling beats **10–20 chương phía trước**.
+
+### Bước K — Initial State
+
+Khởi tạo:
+- `current_state.md` tại chương 0;
+- `chapter_summaries.md` rỗng;
+- `open_loops.md` từ setup của outline;
+- progression budget của batch đầu.
+
+Chỉ sau bước này truyện mới được phép viết chương 1.
+
+---
+
+## 6. Pipeline viết batch 10 chương
+
+Lệnh chuẩn:
+
+```text
+Viết batch 10 chương tiếp theo theo pipeline.
+```
+
+### 6.1. Context Assembly
+
+Trước batch N..N+9 phải đọc:
+1. `narrative_dna.md`
+2. `story_bible.md`
+3. `canon.md`
+4. `current_state.md`
+5. arc hiện tại trong `outline.md`
+6. beats của 10–20 chương gần nhất/phía trước
+7. hồ sơ nhân vật sẽ xuất hiện
+8. `world.md`
+9. `factions.md` nếu liên quan
+10. `power_system.md`
+11. `relationships.md`
+12. `timeline.md`
+13. 5–10 summary gần nhất
+14. `open_loops.md`
+15. `style_guide.md`
+
+### 6.2. Batch Plan
+
+Trước khi draft, lập plan 10 chương gồm:
+- objective;
+- opening pressure;
+- main conflict;
+- reveal;
+- cost;
+- progression delta;
+- relationship delta;
+- setup/payoff;
+- end hook;
+- contribution vào mini-arc 10 chương.
+
+Kiểm tra 10 chương không lặp cùng một hook, cùng một cấu trúc combat hoặc cùng một kiểu reveal.
+
+### 6.3. Draft tuần tự — không song song
+
+Dù user yêu cầu 10 chương trong một lần, phải xử lý nội bộ:
+
+```text
+Chương N
+→ mini review
+→ provisional state delta
+→ Chương N+1 đọc delta đó
+→ mini review
+→ ...
+→ Chương N+9
+```
+
+Không viết 10 chương độc lập cùng từ một snapshot ban đầu.
+
+### 6.4. Mini Gate sau mỗi chương
+
+Mỗi chương phải pass:
+- Canon Gate
+- Continuity Gate
+- Narrative Gate
+- Character Knowledge Gate
+- Power Accounting Gate
+- Style Gate
+- Audio Gate
+
+Nếu fail, sửa ngay trước khi viết chương kế tiếp.
+
+### 6.5. Batch Gate sau chương thứ 10
+
+Audit toàn batch:
+- timeline;
+- vị trí nhân vật;
+- thương tích;
+- inventory;
+- progression budget;
+- relationship drift;
+- open loops;
+- setup/payoff;
+- pacing 10 chương;
+- độ đa dạng hook;
+- lặp từ/câu/cấu trúc;
+- voice drift;
+- mức độ bám Narrative DNA;
+- nguy cơ trở thành bản đổi tên của nguồn.
+
+Nếu batch fail, sửa các chương liên quan rồi audit lại.
+
+### 6.6. Commit Memory
+
+Chỉ sau khi batch pass:
+- lưu 10 chapter final;
+- append 10 chapter summaries;
+- cập nhật `current_state.md` về cuối chương thứ 10;
+- cập nhật `relationships.md` nếu có delta lâu dài;
+- cập nhật `timeline.md` nếu có mốc mới;
+- cập nhật `open_loops.md`;
+- cập nhật progression/inventory;
+- cập nhật outline rolling nếu chỉ còn <10 beat phía trước.
+
+---
+
+## 7. Quy tắc continuity cho batch
+
+- Power-up phải có accounting trước/sau.
+- Vật phẩm dùng ở chương sau phải tồn tại ở state chương trước.
+- Thương tích không tự biến mất.
+- Nhân vật không biết fact chưa được học.
+- Relationship delta phải tích lũy, không reset theo chương.
+- Clock/time limit phải giảm đúng.
+- Setup đã đóng không được tự mở lại nếu không có lý do canon.
+- Một reveal lớn phải cập nhật nhận thức của các nhân vật liên quan ở những chương sau.
+
+---
+
+## 8. Quy tắc branch
+
+Trước mọi write action:
+1. xác nhận đang ở `story/<slug>`;
+2. không ghi chapter/canon truyện vào `main`;
+3. không dùng memory của branch truyện khác;
+4. mọi file mới và update của truyện phải cùng branch;
+5. nếu user đổi sang truyện khác, đổi branch trước khi đọc/ghi memory.
+
+Pipeline/templates có thể phát triển trên branch `pipeline/*` rồi merge vào `main`.
+
+---
+
+## 9. Lệnh vận hành đề xuất
+
+### Tạo truyện từ hồ sơ
+
+```text
+@GitHub làm việc với repo cuongtobi/novel_maker.
+Dùng hồ sơ mẫu tôi cung cấp.
+Tạo truyện mới với slug <slug> theo profile-clone pipeline.
+Tạo branch story/<slug>.
+Clone toàn bộ initial memory, review consistency, chưa viết chương 1.
+```
+
+### Viết batch đầu
+
+```text
+Viết batch chương 1–10 theo pipeline.
+```
+
+### Viết batch tiếp
+
+```text
+Viết batch 10 chương tiếp theo.
+```
+
+### Audit trước khi tiếp tục
+
+```text
+Audit continuity toàn branch hiện tại, sửa memory nếu có mâu thuẫn đã được chapter final xác nhận, rồi mới lập batch kế tiếp.
+```
+
+---
+
+## 10. Definition of Done
+
+### Initial clone hoàn tất khi
+- branch truyện riêng đã tồn tại;
+- profile nguồn được ghi nhận;
+- clone_map pass;
+- Narrative DNA pass;
+- Story Bible pass;
+- Characters/World/Factions/Power/Timeline/Relationships/Theme pass;
+- Style Guide pass;
+- Macro Outline + rolling beats pass;
+- current_state tại chương 0 nhất quán;
+- không còn tên/địa danh/pháp bảo/thuật ngữ nguồn bị sót ngoài `source/profile.md` hoặc phần đối chiếu trong `clone_map.md`.
+
+### Batch 10 chương hoàn tất khi
+- đủ 10 chapter final;
+- từng chương pass mini gate;
+- toàn batch pass batch gate;
+- memory cập nhật đến đúng chapter cuối;
+- rolling outline còn tối thiểu 10 beat phía trước hoặc đã được bổ sung.
