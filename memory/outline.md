@@ -15,6 +15,11 @@
 - Core mystery ladder: retained.
 - Endgame after C100: open/unsupported; do not invent.
 
+## Accepted deviation / continuity ledger
+- **C002 accepted minor visual precursor:** an old drawing shows a door closed by three nail-like objects. The protagonist does not identify or understand them.
+- This does **not** move the protected C021 soul-lock-nail reveal. C021 remains the first material identification/meaningful causal evidence; future prose must acknowledge that the shape was seen earlier rather than pretend the visual motif is wholly new.
+- No other approved plot/progression deviation exists through C010.
+
 ## Arc 1 — Liễu Nương–Bạch Thạch Kiều (C001–C021)
 - Function: model case; establish transmigration, Phệ Quỷ, sincere belief, institution contact, realm 1 and “ghost may be victim” principle.
 - Promise: survive first haunting and discover why an apparently resolved ghost case is still killing.
@@ -103,74 +108,87 @@
 
 ### C001 — Tỉnh trong xác chết
 - Source anchor: C001.
+- Accepted: YES.
 - Pressure/objective: Hoài Chân wakes in dead youth at Thanh Khê and must determine survival state.
 - Opposition: weak body, unfamiliar world, anomalous Thần Tướng Đồ/hunger.
 - State change: transmigration premise activated.
 - Hook: traces of Tống Mù legacy/secret.
 
-### C002 — Dấu vết người dẫn đường
+### C002 — Linh Vị Dưới Sàn
 - Anchor: C002.
+- Accepted: YES.
 - Objective: inspect inherited room/objects/records.
 - Beat: tablet/hidden materials imply Tống Mù past is not simple; set up Bùi clue and Lục connection.
+- Accepted surface setup: old drawing of a door closed by three nail-like objects; **meaning unknown**.
 - Hook: first hostile/edible ghost sign.
 
 ### C003 — Phệ Quỷ
 - Anchor: C003.
+- Accepted: YES.
 - Objective: survive direct ghost contact.
 - Reveal: consuming ghost part improves body/sight but transfers resentment/memory; Liễu Nương possession emerges.
 - Cost: contamination.
 
-### C004 — Oán niệm theo vào
+### C004 — Oán Niệm Theo Vào
 - Anchor: C004.
+- Accepted: YES.
 - Objective: understand backlash/force possession out.
 - State change: power cannot be used without mental cost.
 - Hook: hương/belief as next tool.
 
-### C005 — Hương thật
+### C005 — Hương Phải Có Tâm
 - Anchor: C005.
+- Accepted: YES.
 - Objective: test Thần Tướng Đồ against sincere worship.
 - Reveal: genuine hương matters; social belief can affect artifact.
 - Setup: storytelling/public-belief path.
 
-### C006 — Đại Ninh sáu trăm năm
+### C006 — Đại Ninh Sáu Trăm Năm
 - Anchor: C006.
+- Accepted: YES.
 - Objective: orient geography/history and belief limits.
 - Reveal: six-century dynasty; self/hired worship not equivalent to sincere belief.
 - Hook: domestic life invaded by materially wrong detail.
 
-### C007 — Bữa ăn sai lệch
+### C007 — Bát Thịt Nóng
 - Anchor: C007.
+- Accepted: YES.
 - Pressure: body-horror evidence shows possession harmed household; Liễu Nương fouls protective medium.
-- Cost: irreversible human harm visible.
+- Cost: husband of Lưu Lan dies permanently; Hoài Chân is thrown into a wall and fails to hold Liễu.
 - Hook: leaving would be safer.
 
-### C008 — Không chạy
+### C008 — Không Chạy
 - Anchor: C008.
+- Accepted: YES.
 - Choice: Hoài Chân stays despite fear.
 - Setup: moral contract of power + source-backed time pressure.
 - Hook: professional occult responder approaches.
 
-### C009 — Người của Trấn Tà Giám
+### C009 — Người Của Trấn Tà Giám
 - Anchor: C009.
+- Accepted: YES.
 - Reveal: trained state occult profession exists; current tool has limits.
 - State change: first institutional contact via Phùng Tĩnh.
 - Hook: official knowledge should explain ghost—but does not.
 
-### C010 — Hồ sơ nói nàng đã chết yên
+### C010 — Hồ Sơ Nói Nàng Đã Được Siêu Độ
 - Anchor: C010.
+- Accepted: YES.
 - Objective: compare present haunting with old file.
-- Reveal: record says Liễu Nương was already resolved/released.
+- Reveal: record says Liễu Nương was already resolved/released; Đổng Diệu Tông is absent from the closed case but exists in old household records; Bạch Thạch Kiều is located.
 - State change: investigation becomes truth problem, not only combat.
 
 ### C011 — Thang tà ám
 - Anchor: C011.
+- Accepted: NO.
 - Reveal: Quỷ→Hung→Sát→Tai→Uyên.
-- Cost: innocent death locks moral weight.
+- Cost: source-backed innocent death locks moral weight.
 - Choice: Hoài Chân still refuses retreat.
 - Hook: need community-scale preparation.
 
 ### C012 — Tranh và Trấn Quỷ Chú
 - Anchor: C012.
+- Accepted: NO.
 - Action: spread many protective prints; hương accumulates.
 - Power delta: Trấn Quỷ Chú/Ấn opens.
 - State change: community participation becomes combat resource.
@@ -178,18 +196,21 @@
 
 ### C013 — Xương dưới cầu
 - Anchor: C013.
+- Accepted: NO.
 - Objective: inspect bridge evidence.
 - Reveal: child remains point to live sacrifice.
 - State change: old case narrative collapses further.
 
 ### C014 — Mưa phá kế
 - Anchor: C014.
+- Accepted: NO.
 - Objective: continue bridge operation under ritual disruption.
 - Support: Lục family/A Ninh enters materially.
 - State change: confrontation forced closer.
 
 ### C015 — Nuốt Liễu Nương
 - Anchor: C015.
+- Accepted: NO.
 - Objective: defeat near-Hung ghost.
 - Logic: Trấn Quỷ preparation + Phệ Quỷ.
 - Cost: resentment/memory.
@@ -197,35 +218,42 @@
 
 ### C016 — Người chết kể lại
 - Anchor: C016.
+- Accepted: NO.
 - Reveal: betrayal, child sacrifice and Liễu Nương victimization.
 - Moral state change: separate her crimes from crimes done to her.
 - Setup: familiar person points toward long scheme.
 
 ### C017 — Điều Long Hổ
 - Anchor: C017.
+- Accepted: NO.
 - Objective: use Huyền Đỉnh inheritance/energy for formal cultivation.
 - Power delta: realm 1 `Điều Long Hổ`.
 - Hook: larger realm ladder.
 
 ### C018 — Chín cảnh Đăng Tiên
 - Anchor: C018.
+- Accepted: NO.
 - Reveal: four macro phases / nine realms; unknown names remain unknown.
 - Setup: historical founder/general lineage.
 - State change: longevity goal gets measurable ladder.
 
 ### C019 — A Ninh thành người nhà
 - Anchor: C019.
+- Accepted: NO.
 - Event: Lục thúc taken by underworld soldiers and entrusts A Ninh.
 - Relationship delta: acquaintance/dependent → chosen family.
 - Open loop: rescue Lục thúc.
 
 ### C020 — Ba câu hỏi chưa khép
 - Anchor: C020.
+- Accepted: NO.
 - Objective: review contradictions in Liễu Nương case.
 - Investigation delta: multiple unresolved questions remain.
-- Hook: soul-lock nails/next evidence C021 connect case to larger occult lineage.
+- Hook: C021 identifies/materializes the soul-lock-nail evidence and connects it to a larger occult lineage; acknowledge C002's unexplained three-nail-like drawing as visual precursor only.
 
-## Initial outline audit
+## Current outline audit — after accepted C010
+- Accepted chapters: **C001–C010**.
+- Next range: **C011–C020**.
 - Genre/subgenre unchanged: PASS.
 - Arc order C001–C100 unchanged: PASS.
 - Major events/results unchanged: PASS.
@@ -234,4 +262,5 @@
 - No C101+ major arc invented: PASS.
 - New names pass genre fit: PASS.
 - Direct source prose/catchphrase reuse: NONE.
-- Chapter 1 drafted: **NO** — blocked by user request.
+- Over-creation: NONE major.
+- Minor accepted early visual setup: C002 three-nail-like drawing; semantics/payoff remain locked to C021.
