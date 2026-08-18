@@ -2,6 +2,8 @@
 
 `canon.md` is the compact lock manifest. Detailed facts live in `clone_map.md`, `narrative_dna.md`, `story_bible.md`, `characters.md`, `world.md`, `factions.md`, `power_system.md`, `timeline.md`, `relationships.md`, `theme.md`, `style_guide.md`, `outline.md`, `current_state.md`, `chapter_summaries.md`, and `open_loops.md`.
 
+Operational state is authoritative in `current_state.md`; this file locks invariants and accepted milestone facts.
+
 ## Identity
 - Story ID / slug: `huong-hoa-tran-quy`
 - Branch: `story/huong-hoa-tran-quy`
@@ -18,8 +20,7 @@
 
 ## Core premise
 - Protagonist: **Tạ Hoài Chân**, modern student soul in a dead youth.
-- Starting condition: poor, weak body, no formal realm, newly awakened in Thanh Khê during Thừa Bình year 7.
-- Immediate problem: supernatural anomaly, body-identity mismatch, unexplained Thần Tướng Đồ/ghost hunger.
+- Starting condition: poor, weak body, no formal realm, awakened in Thanh Khê during Thừa Bình year 7.
 - Central fantasy: **Thần Tướng Đồ + Phệ Quỷ + sincere hương hỏa** turn dangerous contact with the dead and social trust/storytelling into progression.
 - Reader promise: every local ghost case pays off a concrete victim-level injustice while revealing a larger conspiracy/world layer.
 - Endgame direction: investigate U Tuyền/Thượng Tôn/U Phủ/Thần Tướng Đồ and rescue Lục thúc; no unsupported final ending is locked from current C001–C100 source.
@@ -33,6 +34,7 @@
 - Emotional rhythm: horror → moral anger → preparation/tactics → punishment/payoff → warmth/comedy → larger threat.
 
 ## Protected Source Structures — KEEP_CANON
+
 ### Realm ladder
 ```text
 Trăm Ngày Trúc Cơ
@@ -73,7 +75,7 @@ Nhất Giáp Đăng Tiên
 Arc order, major event results, midpoint/climax/payoff direction and causal chain are protected.
 
 ### Historical backbone
-- Ancient prior dynasty/civilization testimony remains prior to current dynasty.
+- Ancient prior-dynasty testimony remains prior to current dynasty and retains testimony/uncertainty labels.
 - ~600 years pre-C001: Đại Ninh founded by Triệu Huyền Đình; Kỷ Thiên Cơ establishes state occult institution.
 - ~600 years pre-C001: Kỷ destroys Huyền Âm Sơn/Tai-level ghost king; Bùi Huyền survival links to Thượng Tôn.
 - Ninh Nguyên 21: underworld-soldier massacre in Túc Châu → Kỷ enters U Minh 49 days with Cửu Vực Đỉnh → returns aged → soldiers quiet for centuries.
@@ -108,8 +110,8 @@ first-case false record → five-element linkage → false mentor is murderer/bo
 - Underworld layer: U Phủ / âm binh / Đi Âm Nhân.
 - Dynasty/province/opening county: Đại Ninh / Tĩnh Châu / Thanh Khê.
 - Core artifact/abilities: Thần Tướng Đồ; Phệ Quỷ; Trấn Quỷ Chú/Ấn; Huyền Đỉnh Chân Công; Trấn Quỷ Kiếm/Xích Nhạc; Xích Tiêu Thiên Hỏa; Hộ Pháp Quyết.
-- Full old→new namespace map is exclusively authoritative in `clone_map.md`.
-- Every new name passed Genre Fit Gate: classical/Sino-Vietnamese, pre-industrial occult register, no modern/Western/game morphology.
+- Full old→new namespace map is authoritative in `clone_map.md`.
+- New names must remain classical/Sino-Vietnamese, pre-industrial occult register; no modern/Western/game morphology.
 
 ## Hard world rules
 1. Sincere belief matters; self/hired worship is not equivalent to genuine faith.
@@ -203,29 +205,32 @@ first-case false record → five-element linkage → false mentor is murderer/bo
 - Closed source payoffs cannot be reopened only to manufacture twist.
 - Future knowledge cannot leak into earlier chapters.
 
-## Initial state lock
-- Current accepted chapter: **0**.
-- Current arc: Arc 1 planned, not started.
-- Hoài Chân realm: none at chapter 0.
-- Chapter summaries: empty.
-- Open loops: source-backed loops marked `PLANNED`, not character knowledge.
-- Chapter 1: **NOT WRITTEN**.
+## Accepted milestone lock — after batch C001–C010
+- Current accepted chapter: **10**; detailed live state is in `current_state.md`.
+- Accepted chapters: `chapters/0001.md` through `chapters/0010.md`.
+- Arc 1 remains ongoing; next protected range is C011–C020.
+- Hoài Chân realm after C010: **none**.
+- Confirmed protagonist power: **Phệ Quỷ only**; it has already demonstrated benefit + resentment/memory backlash.
+- Confirmed hương rule: sincere belief affects Thần Tướng Đồ; self-paid/transactional worship did not show equivalent response in accepted tests.
+- Trấn Quỷ Chú/Ấn remains **locked until C012**.
+- Realm 1 `Điều Long Hổ` remains **locked until C017–18**.
+- Lưu Lan's husband is **dead permanently** due to the possession event.
+- Lưu Lan remains alive after C010 and has been temporarily freed from possession; grief/consequence persists.
+- Phùng Tĩnh/Trấn Tà Giám first contact is accepted at C009; no membership/external-agent status yet.
+- C010 accepted contradiction: official old file says Liễu Nương was released/siêu độ and attributes the child's death to Lưu Bảo Sơn, while Liễu is demonstrably active and repeatedly calls for Đổng Diệu Tông/child.
+- Bạch Thạch Kiều is the active next investigation location before the source-backed chính-ngọ pressure.
+- Tống Mù/Bùi Huyền deep identity remains unknown to Hoài Chân; hidden Bùi Tùng Nhạc tablet/notebook is only an early clue.
+- Lục thúc capture/chosen-family A Ninh beat has **not** occurred yet.
+- Chiêu Nguyệt, five-element conspiracy, U Tuyền, U Phủ and all later-arc facts remain future knowledge.
 
-## Initial Cross-file Consistency + Source Fidelity Audit
-- [x] Source profile recorded and tied to raw SHA-256.
-- [x] Clone Map created before canon lock.
-- [x] Protected Source Structures explicit before canon.
-- [x] Genre/subgenre consistent across Narrative DNA, Bible, World, Style, Outline.
-- [x] Realm ladder identical across Clone Map, Story Bible and Power System; missing realm names remain unknown.
-- [x] Threat ladder consistent.
-- [x] Arc ranges/order cover C001–C100 continuously with no gap/reorder.
-- [x] Historical event order/numbers/results preserved.
-- [x] Progression landmarks match Timeline/Power/Outline.
-- [x] Character names/functions consistent with Relationships/Factions/Outline.
-- [x] Proper-name source identities do not leak into specialized new-story canon; old→new mapping remains in Clone Map/source import only.
-- [x] Genre Fit Gate passed for new names.
-- [x] No new major lore/arc/twist/antagonist/bloodline/system introduced.
-- [x] C101+ not fabricated from incomplete source.
-- [x] Current state is chapter 0; no chapter 1 content created.
-
-**Initial clone status: PASS. Canon locked for C001–C100 planning scope. Drafting remains blocked until the user explicitly requests chapter writing.**
+## Batch C001–C010 Source Fidelity Audit
+- Genre/subgenre: PASS.
+- Protected realm/event/history structures: PASS; no drift.
+- Source beat order C001–C010: PASS.
+- Power accounting: PASS; no early realm/skill.
+- Character knowledge: PASS.
+- Relationship direction: PASS.
+- Genre Fit naming: PASS.
+- New major lore/arc/twist/antagonist/system/bloodline: NONE.
+- Direct source prose/catchphrase reuse: NONE.
+- Batch status: **ACCEPTED / PASS**.
