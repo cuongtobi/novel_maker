@@ -10,7 +10,7 @@
 Tạ Hoài Chân, linh hồn sinh viên hiện đại, tỉnh trong thân xác thiếu niên cùng tên đã chết ở Thanh Khê. Hắn xác nhận cơ thể cực yếu, ký ức nguyên chủ đứt đoạn và Thần Tướng Đồ tồn tại trong thức hải nhưng chưa hiểu cơ chế. Khi kiểm tra di vật Tống Mù, hắn phát hiện bùn xám/sợi chỉ đỏ và tiếng gõ bất thường dưới nền, mở nghi vấn về cái chết và quá khứ người dẫn đường.
 
 ### C002 — Linh Vị Dưới Sàn
-Hoài Chân mở hốc bí mật dưới sàn, tìm thấy linh vị **Bùi Tùng Nhạc**, sổ tay Tống Mù và ghi chép ám chỉ chuyện nước, mắt quỷ cùng việc không để “Tiểu Tạ” biết một bí mật. Tên Lục thúc xuất hiện trong sổ như quan hệ cũ của Tống Mù. Đêm xuống, một con mắt tà dị từ trong nhà xuất hiện và chủ động tấn công.
+Hoài Chân mở hốc bí mật dưới sàn, tìm thấy linh vị **Bùi Tùng Nhạc**, sổ tay Tống Mù và ghi chép ám chỉ chuyện nước, mắt quỷ cùng việc không để “Tiểu Tạ” biết một bí mật. Tên Lục thúc xuất hiện trong sổ như quan hệ cũ của Tống Mù. Trong các giấy vẽ cũ có một hình cánh cửa bị đóng bằng ba vật dài như đinh; Hoài Chân không hiểu hay định danh nó. Đêm xuống, một con mắt tà dị từ trong nhà xuất hiện và chủ động tấn công.
 
 ### C003 — Phệ Quỷ
 Khi bị mắt quỷ tấn công, Hoài Chân lần đầu xác nhận **Phệ Quỷ**: hắn hấp thu con mắt, cơ thể/thị lực tăng nhưng đồng thời nhận ký ức nước, cầu trắng và oán niệm giết chóc. Hắn tự ghi giới hạn, không xem sức mạnh là miễn phí. Lưu Lan tới đưa thịt; bùn xám trên giày và phản ứng Thần Tướng Đồ dẫn Hoài Chân tới nhà bà, nơi Liễu Nương đã nhập thân và nhận ra hắn ăn mắt của nàng.
@@ -25,7 +25,7 @@ Hoài Chân thử hương với chính mình, người được trả công và 
 Hoài Chân kiểm tra dấu nước/bùn ở nhà Lưu Lan, rồi dùng địa chí/bản đồ để định vị bản thân trong **Đại Ninh, Tĩnh Châu, Thanh Khê** và biết triều đại đã tồn tại khoảng sáu trăm năm mà chưa tự suy diễn nguyên nhân. Các thử nghiệm tiếp tục xác nhận tiền/đổi chác không tạo hương thật. Lưu Lan và chồng trở về nhà; đêm đó Lưu Lan bất ngờ mang sang một bát “thịt” khi Thần Tướng Đồ cảnh báo tà dị.
 
 ### C007 — Bát Thịt Nóng
-Hoài Chân phát hiện bát thịt chứa phần cơ thể chồng Lưu Lan; Liễu Nương đã dùng vật chủ giết ông và mang thịt tới khiêu khích. Nàng làm ô bức tranh Huyền Diện Chân Quân, chứng minh vật dẫn hương có thể bị tà lực phá. Hoài Chân không cứu được người chồng, chỉ tạm đẩy Liễu Nương đi và xác nhận Lưu Lan vẫn còn ý thức trong thân thể. Trước nguy cơ vượt quá năng lực, hắn chuẩn bị rời Thanh Khê.
+Hoài Chân phát hiện bát thịt chứa phần cơ thể chồng Lưu Lan; Liễu Nương đã dùng vật chủ giết ông và mang thịt tới khiêu khích. Nàng làm ô bức tranh Huyền Diện Chân Quân, chứng minh vật dẫn hương có thể bị tà lực phá. Hoài Chân thử Phệ Quỷ khi còn vật chủ sống nhưng bị nước thịt quấn chân, bị hất đập vào tường và Phệ Quỷ gián đoạn; Liễu Nương chủ động rút đi cùng Lưu Lan, còn người chồng đã chết vĩnh viễn. Trước nguy cơ vượt quá năng lực, Hoài Chân chuẩn bị rời Thanh Khê.
 
 ### C008 — Không Chạy
 Trên đường ra cổng huyện, Hoài Chân quay lại vì đã nhận niềm tin của người dân nhưng không muốn dùng niềm tin như tài nguyên rồi bỏ người gặp nạn. Hắn chuẩn bị bằng công cụ phàm tục, cảnh báo dân và tiếp tục kiểm chứng hương. Liễu Nương dùng nước để đưa ra mốc **chính ngọ ngày mai**, tạo đồng hồ thật. Hoài Chân suy ra một triều đình sáu trăm năm trong thế giới có tà ám có thể tồn tại người xử lý chuyên nghiệp; đêm đó **Phùng Tĩnh** mang eo bài Trấn Tà Giám tới cửa.
